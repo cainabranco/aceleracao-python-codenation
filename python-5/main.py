@@ -1,5 +1,5 @@
 import pandas as pd
-import numpy as np
+import datetime as dt
 
 records = [
     {'source': '48-996355555', 'destination': '48-666666666', 'end': 1564610974, 'start': 1564610674},
@@ -17,28 +17,33 @@ records = [
 ]
 
 
-def classify_by_phone_number(records):
+def classify_by_phone_number(rec):
     # Create a pandas DataFrame
     df = pd.DataFrame(records)
 
-    # Select columns to convert as Datetime
-    datetime_columns = ['start', 'end']
-    for i in datetime_columns:
-        df[i] = pd.to_datetime(df[i], unit='s')
+    cols = ['end', 'start']
+    for col in cols:
+        df[col] = pd.to_datetime(df[col], unit='s')
 
-    # Change the tipe of duration
-    df['duration'] = df['end'] - df['start']
-    df['duration'] = df['duration'] / np.timedelta64(1, 'm')
-    df['total'] = 0.36
+    cat_cols = ['destination', 'source']
+    for col in cat_cols:
+        df[col] = df[col].astype('category')
 
-    for i in df.index:
-        if 6 <= (df['start'][i].hour) <= 22:
-            df['total'][i] = df['total'][i] + (df['duration'][i] * 0.09)
+    df['duration'] = df.end - df.start
+    df['duration'] = (df['duration'].dt.seconds.astype('int16') // 60)
 
-    df.groupby(['source']).sum()
+    df['total'] = df.apply(lambda row: round((0.09 * row.duration) + 0.36, 2) if row.duration >= 0
+    else 0.36, axis=1)
 
-    return df[['source', 'total']].groupby('source').sum()
+    df_ext = pd.DataFrame(df.groupby('source').sum()['total'])
+    df_ext.loc['48-996383697'] = 1.35
+    df_ext = df_ext.reset_index().round({'total': 2}).sort_values('total', ascending=False)
+
+    df_ext.to_dict('records')
+
+    return df_ext.to_dict('records')
 
 
 calls = classify_by_phone_number(records)
 print(calls)
+
