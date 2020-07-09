@@ -33,7 +33,7 @@ def classify_by_phone_number(rec):
     df['duration'] = (df['duration'].dt.seconds.astype('int16') // 60)
 
     df['total'] = df.apply(lambda row: round((0.09 * row.duration) + 0.36, 2) if row.duration >= 0
-    else 0.36, axis=1)
+                            else 0.36, axis=1)
 
     df_ext = pd.DataFrame(df.groupby('source').sum()['total'])
     df_ext.loc['48-996383697'] = 1.35
