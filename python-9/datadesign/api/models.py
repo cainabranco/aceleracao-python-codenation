@@ -23,8 +23,8 @@ class Event(models.Model):
     data = models.TextField('Dado')
     arquivado = models.BooleanField('Arquivado')
     date = models.DateField('Data', auto_now=True)
-    agent_id = models.ForeignKey(Agent, on_delete=models.CASCADE)
-    user_id = models.ForeignKey(User, on_delete=models.CASCADE)
+    agent = models.ForeignKey(Agent, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
 
 class Group(models.Model):
