@@ -46,5 +46,6 @@ def get_all_agents_by_user(username) -> Agent:
 def get_all_events_by_group() -> Group:
     """Traga todos os grupos que contenham alguem que possua um agente que possuem eventos do tipo information"""
     group_with_information_events = Group.objects.filter(
-        user__agent__event__level='information')
+        user__agent__event__level='information'
+    )
     return group_with_information_events

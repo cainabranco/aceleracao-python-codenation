@@ -2,76 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0461695-36a0-4599-bf91-816b19af0913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module-7/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/ecomm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/ecomm/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/ecomm/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/ecomm/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/migrations/0002_auto_20190916_0111.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/migrations/0003_auto_20190925_0220.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/static/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/templates/products/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/templates/products/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/templates/products/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/products/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/api_permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-7/rest_api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/api/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/api/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/api/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/api/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/ormchallenge/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/ormchallenge/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/ormchallenge/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/ormchallenge/ormchallenge/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-11/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-7/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/module-7/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-11/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/python-11/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-11/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-11/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,38 +79,18 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python-11/ormchallenge/api" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python-11/ormchallenge/api" />
       <recent name="$PROJECT_DIR$/python-9" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="codenation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python-6/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test_main.TestChallenge10.test_1">
     <configuration name="test_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="codenation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,6 +157,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_main.TestChallenge10.test_1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="codenation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python-11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main.TestChallenge10.test_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_main.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="codenation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,12 +188,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.test_main (1)" />
       <item itemvalue="Python.test_main (2)" />
       <item itemvalue="Python.test_main" />
       <item itemvalue="Python tests.Unittests in test_main.py" />
+      <item itemvalue="Python tests.Unittests for test_main.TestChallenge10.test_1" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_main.TestChallenge10.test_1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -260,7 +214,7 @@
       <workItem from="1594413903695" duration="1671000" />
       <workItem from="1594655335782" duration="194000" />
       <workItem from="1594655559520" duration="12537000" />
-      <workItem from="1595264736952" duration="6092000" />
+      <workItem from="1595264736952" duration="11928000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1580386749154</created>
@@ -374,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595528372582</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add module-7">
+      <created>1595539048352</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595539048353</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -406,7 +367,8 @@
     <MESSAGE value="python-9 final commit" />
     <MESSAGE value="python-10 initial commit" />
     <MESSAGE value="python-11 initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="python-11 initial commit" />
+    <MESSAGE value="add module-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module-7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="603" y="320" key="#Notifications" timestamp="1594655581595">
@@ -417,38 +379,51 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1595356129804" />
-    <state x="250" y="51" key="CommitChangelistDialog2" timestamp="1595528363350">
+    <state x="488" y="-678" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595614950874">
+      <screen x="-543" y="-1080" width="2560" height="1080" />
+    </state>
+    <state x="488" y="-678" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614950874" />
+    <state x="250" y="51" key="CommitChangelistDialog2" timestamp="1595539047613">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="-99" y="-965" key="CommitChangelistDialog2/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1594674104422" />
-    <state x="250" y="51" key="CommitChangelistDialog2/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1595528363350" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1594658690605">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594658690605" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1594658690603">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594658690603" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1594658690603">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594658690603" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1594658690604">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594658690604" />
-    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1594665130555">
+    <state x="250" y="51" key="CommitChangelistDialog2/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1595539047613" />
+    <state width="2518" height="304" key="GridCell.Tab.0.bottom" timestamp="1595614621515">
       <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
-    <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1594665130555" />
+    <state width="2518" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614621515" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594658690605" />
+    <state width="2518" height="304" key="GridCell.Tab.0.center" timestamp="1595614621513">
+      <screen x="-543" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614621513" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594658690603" />
+    <state width="2518" height="304" key="GridCell.Tab.0.left" timestamp="1595614621512">
+      <screen x="-543" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614621512" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594658690603" />
+    <state width="2518" height="304" key="GridCell.Tab.0.right" timestamp="1595614621514">
+      <screen x="-543" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="2518" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614621514" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594658690604" />
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1595614776941">
+      <screen x="-543" y="-1080" width="2560" height="1080" />
+    </state>
+    <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614776941" />
     <state x="-150" y="-973" key="SettingsEditor" timestamp="1594661415379">
       <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
     <state x="-150" y="-973" key="SettingsEditor/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1594661415379" />
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594655655642" />
+    <state x="402" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1595614982819">
+      <screen x="-543" y="-1080" width="2560" height="1080" />
+    </state>
+    <state x="402" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614982819" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codenation$Unittests_in_test_main_py.coverage" NAME="Unittests in test_main.py Coverage Results" MODIFIED="1594658660813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-9" />
+    <SUITE FILE_PATH="coverage/codenation$Unittests_for_test_main_TestChallenge10_test_1.coverage" NAME="Unittests for test_main.TestChallenge10.test_1 Coverage Results" MODIFIED="1595614607623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-11" />
   </component>
 </project>

@@ -5,5 +5,10 @@
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
       <schema-mapping />
     </data-source>
+    <data-source name="db" uuid="f2547506-3a98-4bdb-98f1-13b53d2ece28">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+    </data-source>
   </component>
 </project>

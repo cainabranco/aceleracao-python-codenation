@@ -5,6 +5,7 @@ from django.conf import settings
 from products.models import Product
 from products.forms import ProductModelForm
 
+
 # Create your views here.
 
 @cache_page(25)
