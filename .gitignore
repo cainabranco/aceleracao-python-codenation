@@ -1,0 +1,9 @@
+*.pyc
+*.xml
+*.sqlite3
+__pycache__
+/module-5/
+/module-6/
+/module-7/
+*/venv/
+
