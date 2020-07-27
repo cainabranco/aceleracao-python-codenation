@@ -10,13 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0461695-36a0-4599-bf91-816b19af0913" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-13/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-13/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-13/stdout.txt" afterDir="false" />
+    <list default="true" id="b0461695-36a0-4599-bf91-816b19af0913" name="Default Changelist" comment="python-13 final commit">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-13/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-13/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +203,8 @@
       <workItem from="1594655335782" duration="194000" />
       <workItem from="1594655559520" duration="12537000" />
       <workItem from="1595264736952" duration="12514000" />
-      <workItem from="1595628361011" duration="2097000" />
+      <workItem from="1595628361011" duration="2411000" />
+      <workItem from="1595802891143" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1580386749154</created>
@@ -348,7 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595798340723</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="python-13 final commit">
+      <created>1595802597709</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595802597710</updated>
+    </task>
+    <task id="LOCAL-00022" summary="python-13 final commit">
+      <created>1595802768980</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1595802768980</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -377,6 +389,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/AceleraDev-Python-desafio-modulo07-Queries" />
+    </ignored-roots>
     <MESSAGE value="first commit" />
     <MESSAGE value="final commit" />
     <MESSAGE value="initial python-6" />
@@ -396,7 +411,8 @@
     <MESSAGE value="python-11 final commit" />
     <MESSAGE value="python-12 initial commit" />
     <MESSAGE value="python-13 initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="python-13 initial commit" />
+    <MESSAGE value="python-13 final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="python-13 final commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="603" y="320" key="#Notifications" timestamp="1594655581595">
@@ -411,10 +427,10 @@
       <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
     <state x="488" y="-678" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614950874" />
-    <state x="-99" y="-965" key="CommitChangelistDialog2" timestamp="1595798337128">
+    <state x="-99" y="-965" key="CommitChangelistDialog2" timestamp="1595853830340">
       <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
-    <state x="-99" y="-965" key="CommitChangelistDialog2/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595798337128" />
+    <state x="-99" y="-965" key="CommitChangelistDialog2/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595853830340" />
     <state x="250" y="51" key="CommitChangelistDialog2/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1595539047613" />
     <state width="2518" height="304" key="GridCell.Tab.0.bottom" timestamp="1595628230818">
       <screen x="-543" y="-1080" width="2560" height="1080" />
@@ -440,10 +456,10 @@
       <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
     <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614776941" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1595639956532">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-150" y="-973" key="SettingsEditor" timestamp="1595802927141">
+      <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
-    <state x="-150" y="-973" key="SettingsEditor/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1594661415379" />
+    <state x="-150" y="-973" key="SettingsEditor/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595802927141" />
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594655655642" />
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1595639956532" />
     <state x="402" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1595614982819">
