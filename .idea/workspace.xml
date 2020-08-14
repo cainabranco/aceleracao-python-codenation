@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0461695-36a0-4599-bf91-816b19af0913" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codenation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codenation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-6/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/module-6/products/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
+  <component name="JupyterTrust" id="16885c82-b257-4709-86e0-c7de9875c12d" />
   <component name="ProjectId" id="1eVi9IzUqRkeCOYskMwXtPe9Nbv" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -182,10 +185,15 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_main.py" />
         <item itemvalue="Python tests.Unittests for test_main.TestChallenge10.test_1" />
+        <item itemvalue="Python.test_main" />
+        <item itemvalue="Python.test_main (2)" />
+        <item itemvalue="Python.test_main (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -202,7 +210,14 @@
       <workItem from="1594655559520" duration="12537000" />
       <workItem from="1595264736952" duration="12514000" />
       <workItem from="1595628361011" duration="2411000" />
-      <workItem from="1595802891143" duration="1677000" />
+      <workItem from="1595802891143" duration="1864000" />
+      <workItem from="1595857126491" duration="85000" />
+      <workItem from="1596719200725" duration="4016000" />
+      <workItem from="1596742724675" duration="803000" />
+      <workItem from="1596746199337" duration="42000" />
+      <workItem from="1597322216297" duration="2063000" />
+      <workItem from="1597357048021" duration="329000" />
+      <workItem from="1597428843968" duration="1483000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1580386749154</created>
@@ -378,7 +393,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -425,10 +440,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="603" y="320" key="#Notifications/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1594655581595" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595356129804">
+    <state x="201" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597336535099">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1595356129804" />
+    <state x="201" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1597336535099" />
+    <state x="437" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597336485271">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-543.-1080.2560.1080@0.0.1440.900" timestamp="1597336485271" />
     <state x="488" y="-678" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595614950874">
       <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
@@ -472,13 +491,17 @@
       <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
     <state x="337" y="-813" key="Vcs.Push.Dialog.v2/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595854572151" />
+    <state x="540" y="-619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595857146207">
+      <screen x="-543" y="-1080" width="2560" height="1080" />
+    </state>
+    <state x="540" y="-619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595857146207" />
     <state x="402" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1595614982819">
       <screen x="-543" y="-1080" width="2560" height="1080" />
     </state>
     <state x="402" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-543.-1080.2560.1080@-543.-1080.2560.1080" timestamp="1595614982819" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/codenation$Unittests_in_test_main_py.coverage" NAME="Unittests in test_main.py Coverage Results" MODIFIED="1594658660813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-9" />
     <SUITE FILE_PATH="coverage/codenation$Unittests_for_test_main_TestChallenge10_test_1.coverage" NAME="Unittests for test_main.TestChallenge10.test_1 Coverage Results" MODIFIED="1595614607623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-11" />
+    <SUITE FILE_PATH="coverage/codenation$Unittests_in_test_main_py.coverage" NAME="Unittests in test_main.py Coverage Results" MODIFIED="1594658660813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python-9" />
   </component>
 </project>
